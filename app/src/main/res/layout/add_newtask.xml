@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Enter Task"
+        android:id="@+id/tasksEdit"
+        android:paddingStart="7dp"
+        android:paddingEnd="7dp"
+        android:outlineAmbientShadowColor="@color/app"
+        android:outlineSpotShadowColor="@color/app"/>
+
+    <android.widget.Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tasksEdit"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/round_button"
+        android:text="ADD"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:onClick="loginUser"
+        android:clickable="true" />
+
+
+</RelativeLayout>
